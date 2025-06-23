@@ -15,7 +15,7 @@ CALCULATE(SELECTEDVALUE(Products[ProductName]), TOPN(1, Products, [Unit Price], 
 ```
 **Note: [Unit Price] is a measure**
 
-* *Alternate approach* *
+* Alternate approach *
 ```
 FIRSTNONBLANK(TOPN(1, VALUES(Products([ProductName]), [Unit Price], 1)
 ```
