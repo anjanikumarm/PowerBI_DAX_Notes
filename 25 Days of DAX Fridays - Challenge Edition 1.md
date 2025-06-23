@@ -63,7 +63,7 @@ IF(
     SUMX(VALUES(Orders[OrderID]), [Single_Orders]))
 ```
 
-* *Alternate approach* *
+_Alternate approach_
 ```
 COUNTROWS(
     FILTER(
@@ -125,7 +125,7 @@ COUNTROWS(
 )
 ```
 
-* *Alternate approach* *
+_Alternate approach_
 ```
 VAR curr_yr = YEAR(TODAY())
 VAR prev_yr = curr_yr - 1
@@ -235,7 +235,7 @@ CALCULATE(
     'Calendar'[Year] = curr_yr )
 ```
 
-* *Alternate approach* *
+_Alternate approach_
 ```
 VAR curr_yr = YEAR(TODAY())
 RETURN
@@ -252,6 +252,8 @@ CALCULATE(
 CALCULATE(
     COUNTROWS(Employees), 
     YEAR(Employees[HireDate]) = 1994)
+
+
 ```
 
 
