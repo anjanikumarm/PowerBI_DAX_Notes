@@ -7,7 +7,7 @@
 ```
 CALCULATE(DISTINCTCOUNT(Products[ProductID]), FILTER(Products, Products[Unit Price]>20))
 ```
-
+  
 **Day 2 Question: Which product is most expensive ?**
 
 ```
