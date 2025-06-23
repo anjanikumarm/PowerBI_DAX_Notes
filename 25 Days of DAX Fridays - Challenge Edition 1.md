@@ -5,7 +5,9 @@
 **Day 1 Question: How many curent products cost less than $20 ?**
 
 ```
+  
 CALCULATE(DISTINCTCOUNT(Products[ProductID]), FILTER(Products, Products[Unit Price]>20))
+  
 ```
   
 **Day 2 Question: Which product is most expensive ?**
