@@ -1,4 +1,15 @@
-# PowerBI DAX Notes
+# PowerBI Notes
 
-### This repository has tutorials and notes related to DAX. 
-The idea is later to have similar repo for Tableau and SQL for comparison
+### This repository has tutorials and notes related to Power BI Topics. 
+
+1. Power BI Desktop
+   - Architecture
+   - Data Modelling
+   - Data Transformation (Power Query, M)
+   - DAX Challenges 
+   - DAX Optimization
+     
+2. Power BI Service
+   - Semnatic Data Model
+   - Data Refreshes
+   - RLS and OLS 
